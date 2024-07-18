@@ -104,7 +104,7 @@ To make API calls:
 1. Define your API functions in the `src/services` directory.
 2. Use these functions in your components or Redux actions to fetch or post data.
 
-### Installing Additional Packages
+### Installing Packages For A New Project
 
 #### AsyncStorage
 
