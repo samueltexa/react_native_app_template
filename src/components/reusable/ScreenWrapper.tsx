@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, Text, View, ViewProps, ViewStyle } from 'react-native'
 import React, { ReactNode } from 'react'
-import { PRIMARY_COLOR } from '../../constants/colors';
+import { BACKGROUND_COLOR } from '../../constants/colors';
 
 export interface isScreenWrapper extends ViewProps {
     children: ReactNode;
@@ -28,10 +28,9 @@ export default ScreenWrapper
 
 const styles = StyleSheet.create({
     screen_wrapper: {
-        flexGrow: 1,
         justifyContent: 'center',
         alignItems: 'center',
         padding: 15,
-        backgroundColor:PRIMARY_COLOR
+        backgroundColor:BACKGROUND_COLOR
     },
 })
