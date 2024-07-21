@@ -8,6 +8,7 @@ import RegisterScreen from '../screens/RegisterScreen';
 import SuccessRegistration from '../screens/SuccessRegistration';
 import HomeScreen from '../screens/HomeScreen';
 import BottomTabsNavigator from './BottomTabsNavigator';
+import DrawerNavigator from './DrawerNavigator';
 
 
 const MainStack = createStackNavigator();
@@ -15,13 +16,14 @@ const MainStack = createStackNavigator();
 const StackNavigator = () => {
     return (
         <MainStack.Navigator initialRouteName='SplashScreen'>
-            <MainStack.Screen name='SplashScreen' options={{ header: () => null }} component={SplashScreen} />
+            {/* <MainStack.Screen name='SplashScreen' options={{ header: () => null }} component={SplashScreen} />
             <MainStack.Screen name='WelcomeScreen' options={{ header: () => null }} component={WelcomeScreen} />
             <MainStack.Screen name='LoginScreen' options={{ header: () => null }} component={LoginScreen} />
             <MainStack.Screen name='RegisterScreen' options={{ header: () => null }} component={RegisterScreen} />
             <MainStack.Screen name='SuccessRegistration' options={{ header: () => null }} component={SuccessRegistration} />
             <MainStack.Screen name='HomeScreen' options={{ header: () => null }} component={HomeScreen} />
-            <MainStack.Screen name='BottomTabsNavigator' options={{ header: () => null }} component={BottomTabsNavigator} />
+            <MainStack.Screen name='BottomTabsNavigator' options={{ header: () => null }} component={BottomTabsNavigator} /> */}
+            <MainStack.Screen name='DrawerNavigator' component={DrawerNavigator}/>
         </MainStack.Navigator>
     )
 }
