@@ -1,9 +1,11 @@
 export const PRIMARY_COLOR = 'red'
 export const SECONDARY_COLOR = 'red'
-export const BACKGROUND_COLOR = 'white';
+export const BACKGROUND_COLOR = 'purple';
 export const TEXT_COLOR = 'white';
-export const BORDER_COLOR = 'grey';
-export const HIGHLIGHT_COLOR = 'yellow';
+export const TEXTINPUT_COLOR = 'grey';
+export const BUTTON_COLOR = 'white';
+
+
 export const ERROR_COLOR = 'crimson';
 export const SUCCESS_COLOR = 'lime';
 export const INFO_COLOR = 'teal';
