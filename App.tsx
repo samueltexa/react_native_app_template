@@ -11,8 +11,7 @@ import DrawerNavigator from './src/navigation/DrawerNavigator'
 const App = () => {
   return (
     <NavigationContainer>
-      <DrawerNavigator></DrawerNavigator>
-      {/* <StackNavigator/> */}
+      <StackNavigator/>
     </NavigationContainer>
     // <View>
     //   <StatusBar backgroundColor={styles.statusBar.backgroundColor} barStyle="light-content" />
