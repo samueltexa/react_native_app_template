@@ -4,7 +4,7 @@ import { BUTTON_COLOR } from '../../constants/colors'
 
 export interface RButton extends TouchableOpacityProps {
     button_content: string | ReactNode
-    custom_style: TextStyle
+    custom_style?: TextStyle
 
 }
 const ReusableButton = ({ button_content, custom_style, ...other_props }: RButton) => {
